@@ -1,0 +1,1 @@
+psql postgresql://postgres:example@db/db_AddressBook -c "\copy xaldigital.tbl_addressbook (first_name, last_name, company_name, address, city, state, zip, phone1, phone2, email, department) FROM '/home/LZ/Sample.csv' delimiter ',' csv HEADER"
